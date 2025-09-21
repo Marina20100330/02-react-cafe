@@ -25,11 +25,10 @@ export default function VoteOptions({
       </button>
 
       {canReset && (
-        <button className={`${css.button} ${css.reset}`} onClick={onReset}> 
+        <button className={`${css.button} ${css.reset}`} onClick={onReset}>
           Reset
         </button>
       )}
     </div>
   );
 }
-
